@@ -1,6 +1,8 @@
 let a = 1;
 let b = 2;
 
-soma = a + b;
+function soma(a, b) {
+    return a + b;
+}
 
-console.log(soma);
+console.log(soma(a, b));

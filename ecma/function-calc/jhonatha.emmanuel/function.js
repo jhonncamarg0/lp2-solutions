@@ -1,17 +1,17 @@
 module.exports = {
-    som() {
+    som(a, b) {
         return a + b;
 
     },
-    sub() {
+    sub(a, b) {
         return a - b;
 
     },
-    mul() {
+    mul(a, b) {
         return a * b;
 
     },
-    div() {
+    div(a, b) {
         return a / b;
 
     }

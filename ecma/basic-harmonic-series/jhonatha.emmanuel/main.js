@@ -1,9 +1,7 @@
+let i = 0;
 let h = 0;
-let n = 10;
-
-for(let i = 1 ; i <= n ; i++); {
-    h += 1/i;
-
-}
-
-console.log(h);
+let n = prompt("Digite o valor de (n): ");
+parseInt(n);
+do { i++; h += (1 / i); }
+while(i < n);
+document.getElementById("xxx").innerHTML = (`${h}`);

@@ -1,0 +1,6 @@
+### API Utils
+
+POST http://localhost:8080//util/text/lowercase HTTP/1.1
+content-type: application/json
+
+GET http://localhost:8080/util/number/minimum/?10,10,10 HTTP/1.1

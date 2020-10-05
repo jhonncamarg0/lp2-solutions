@@ -21,8 +21,9 @@
 <main class="row">
   {% for flag in flags %}
   <div class="flag col-2 my-2 text-center">
-    {# TODO #}
+    <img src="{{ flag.image }}" />
   </div>
   {% endfor %}
 </main>
+
 {% endblock %}

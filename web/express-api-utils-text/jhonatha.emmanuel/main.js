@@ -25,6 +25,6 @@ app.post('/uppercase'),(req, res) => {
         output: upcasex(dados),
     }
     res.json(result);
-})
+}
 
 app.listen(port, () => {console.log("Running at 8080")});

@@ -1,0 +1,151 @@
+[{
+    "id": "ad",
+    "image": "/imgs/flags/ad.png",
+    "name": "Andorra"
+  },
+  {
+    "id": "ae",
+    "image": "/imgs/flags/ae.png",
+    "name": "United Arab Emirates"
+  },
+  {
+    "id": "af",
+    "image": "/imgs/flags/af.png",
+    "name": "Afghanistan"
+  },
+  {
+    "id": "ag",
+    "image": "/imgs/flags/ag.png",
+    "name": "Antigua and Barbuda"
+  },
+  {
+    "id": "ai",
+    "image": "/imgs/flags/ai.png",
+    "name": "Anguilla"
+  },
+  {
+    "id": "al",
+    "image": "/imgs/flags/al.png",
+    "name": "Albania"
+  },
+  {
+    "id": "am",
+    "image": "/imgs/flags/am.png",
+    "name": "Armenia"
+  },
+  {
+    "id": "an",
+    "image": "/imgs/flags/an.png",
+    "name": "Netherlands Antilles"
+  },
+  {
+    "id": "ao",
+    "image": "/imgs/flags/ao.png",
+    "name": "Angola"
+  },
+  {
+    "id": "aq",
+    "image": "/imgs/flags/aq.png",
+    "name": "Antarctica"
+  },
+  {
+    "id": "ar",
+    "image": "/imgs/flags/ar.png",
+    "name": "Argentina"
+  },
+  {
+    "id": "as",
+    "image": "/imgs/flags/as.png",
+    "name": "American Samoa"
+  },
+  {
+    "id": "at",
+    "image": "/imgs/flags/at.png",
+    "name": "Austria"
+  },
+  {
+    "id": "au",
+    "image": "/imgs/flags/au.png",
+    "name": "Australia"
+  },
+  {
+    "id": "aw",
+    "image": "/imgs/flags/aw.png",
+    "name": "Aruba"
+  },
+  {
+    "id": "ax",
+    "image": "/imgs/flags/ax.png",
+    "name": "Åland Islands"
+  },
+  {
+    "id": "az",
+    "image": "/imgs/flags/az.png",
+    "name": "Azerbaijan"
+  },
+  {
+    "id": "ba",
+    "image": "/imgs/flags/ba.png",
+    "name": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bb",
+    "image": "/imgs/flags/bb.png",
+    "name": "Barbados"
+  },
+  {
+    "id": "bd",
+    "image": "/imgs/flags/bd.png",
+    "name": "Bangladesh"
+  },
+  {
+    "id": "be",
+    "image": "/imgs/flags/be.png",
+    "name": "Belgium"
+  },
+  {
+    "id": "bf",
+    "image": "/imgs/flags/bf.png",
+    "name": "Burkina Faso"
+  },
+  {
+    "id": "bg",
+    "image": "/imgs/flags/bg.png",
+    "name": "Bulgaria"
+  },
+  {
+    "id": "bh",
+    "image": "/imgs/flags/bh.png",
+    "name": "Bahrain"
+  },
+  {
+    "id": "bi",
+    "image": "/imgs/flags/bi.png",
+    "name": "Burundi"
+  },
+  {
+    "id": "bj",
+    "image": "/imgs/flags/bj.png",
+    "name": "Benin"
+  },
+  {
+    "id": "bl",
+    "image": "/imgs/flags/bl.png",
+    "name": "Saint Barthélemy"
+  },
+  {
+    "id": "bm",
+    "image": "/imgs/flags/bm.png",
+    "name": "Bermuda"
+  },
+  {
+    "id": "bn",
+    "image": "/imgs/flags/bn.png",
+    "name": "Brunei Darussalam"
+  },
+  {
+    "id": "bo",
+    "image": "/imgs/flags/bo.png",
+    "name": "Bolivia"
+  }
+]

@@ -6,10 +6,13 @@ async function up() {
   await db.run(`
     CREATE TABLE IF NOT EXISTS flags (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      image TEXT,
-      name TEXT
+      image varchar(200),
+      name varchar(150)
     )
   `);
+
+  await db.run(sql);
+
 }
 
 async function down() {

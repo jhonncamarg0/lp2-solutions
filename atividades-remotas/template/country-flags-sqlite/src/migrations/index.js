@@ -7,7 +7,7 @@ async function up() {
     CREATE TABLE IF NOT EXISTS flags (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       image varchar(200),
-      name varchar(150)
+      name varchar (150)
     )
   `);
 

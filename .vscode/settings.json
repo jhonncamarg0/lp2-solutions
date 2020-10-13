@@ -1,11 +1,4 @@
 {
-    "sqltools.connections": [
-        {
-            "previewLimit": 50,
-            "driver": "SQLite",
-            "name": "flags",
-            "database": "${workspaceFolder:lp2-solutions}/atividades-remotas/template/country-flags-sqlite/src/db/database.sqlite"
-        }
-    ],
+    "sqltools.connections": [],
     "sqltools.useNodeRuntime": true
 }

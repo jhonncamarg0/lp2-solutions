@@ -3,16 +3,16 @@ const { conn } = require('../db');
 async function create(data) {
   const sql = `
     INSERT INTO
-      flags (id, name, image)
+      flags (image, name)
     VALUES
-      (?, ?, ?)
+      (?, ?)
   `;
 
   const db = await conn();
 
-  const { id, name, image } = data;
+  const { image, name } = data;
 
-  const { lastID } = await db.run(sql, [ id, name, image ]);
+  const { lastID } = await db.run(sql, [ image, name ]);
 
   return lastID;
 }
@@ -20,8 +20,8 @@ async function create(data) {
 async function readAll() {
 
   const sql =`
-    SELECT
-      flags.id, flags.image, flags.name FROM flags
+    SELECT * FROM
+      flags
   `;
 
   const db = await conn();

@@ -21,7 +21,7 @@ async function readAll() {
 
   const sql =`
     SELECT
-      flags.id, flags.image, flags.name
+      flags.id, flags.image, flags.name FROM flags
   `;
 
   const db = await conn();
@@ -34,16 +34,15 @@ async function readAll() {
 async function readById(id) {
 
   const sql =`
-    SELECT
-      flags.id, flags.image, flags.name
+    SELECT * FROM
+      flags WHERE id = ?
   `;
 
   const db = await conn();
 
-  const foods = await db.all(sql [ id ]);
+  const flags = await db.get(sql, id);
 
-  return foods;
-
+  return flags;
 }
 
 module.exports = { create, readAll, readById };
